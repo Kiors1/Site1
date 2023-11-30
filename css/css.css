@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+
+	font-family: 'Fira Sans', sans-serif;
+	color: #fff;
+	font-style: 15px;
+	padding: 0;
+	margin: 0;
+    text-decoration: none;
+}
+.container{
+	width: 1300px;
+	margin: 0 auto;
+	
+}
+.main-navigation1{
+	padding-top: 15px;
+	background-color: #303030;
+}
+.header{ 
+
+	align-items: center;
+	
+	font-family: 'Vina Sans', sans-serif;
+	color: black;
+	display: flex;
+	justify-content: space-between;
+background: rgb(205,205,217);
+background: linear-gradient(90deg, rgba(205,205,217,1) 100%, rgba(104,4,4,1) 100%);
+}
+.logo{
+	font-size: 30px;
+color: black;
+text-decoration: 0;
+transition: .5s;
+padding-top: 0;
+}
+.logo:hover{
+	transform: scale(1.2);
+}
+nav{
+	margin-bottom: 15px;
+}
+.h1{
+	display: flex;
+	justify-content: space-between;
+}
+
+li{
+	position: relative;
+	float: left;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 20px;
+	padding-top: 15px;
+}
+li a{
+	padding: 15px;
+	color: black;
+		
+}
+li a:hover{
+	background: #000;
+	color: #fff;
+}
+nav ul { 
+font-weight: 900; }
+
+
+form{
+	align-items: center;
+	display: flex;
+	margin-top: 60px;
+	height: 850px;
+	width: 1300px;
+	background:url('../img/008.jpg') no-repeat;
+	border-radius: 20px;
+}
+
+nav ul li ul{
+	padding-top: 10px;
+	position: absolute;
+	left:0;	
+	display: none;
+	
+}
+nav ul li:hover> ul{
+	display: initial;
+	margin-top: 30px;
+}
+.info-price{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	margin-top: 10px;
+	align-items: center;
+}
+.add-to-card{
+	border: none;
+	width: 35px;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #f18b43;
+	border-radius: 5px	;
+}
+img{
+	width: 100%;
+	border-radius: 10px;
+}
+.price{
+	font-weight: 700;
+	font-style: 18px;
+}
+.product{
+
+	
+}
+.icon{
+	width: 20px;
+	height: 20px;
+}
+.col-md-3{
+
+	height: 300px;
+	width: 200px;
+	padding: 62.5px;
+}
+.row
+{
+	display:inline-flex;	
+flex-wrap: wrap; 
+}
+
+
+
+.next {
+  float: right;
+  color: #fff;
+  background: rgba(0,0,0,0);
+}
+
+.prev {
+  float: left;
+  color: #fff;
+  background: rgba(0,0,0,0);
+}
+.bot{
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	gap: 10px;
+}
+.bot input{
+	
+}
+.bot label{
+	width: 10px;
+	height: 10px;
+	background: #fff;
+	border-radius: 20px;
+	cursor: pointer;
+	opacity: 0.4;
+}
+.bot input:nth-child(1)
+:checked ~.cont label:ntl-child(1){
+	opacity: 1;
+	width: 50px;
+}
